@@ -1,0 +1,19 @@
+.main {
+    border: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0 20px;
+    //align-item: center;
+
+    h1 {
+        font-size:90px;
+        color:#205691;
+    }
+}

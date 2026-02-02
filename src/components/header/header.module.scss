@@ -38,7 +38,7 @@
 .navUser {
     position:absolute;
     right: 0;
-    top: 11%;
+    top: 5rem;
     background-color: #205691;
 
     a{
@@ -53,5 +53,19 @@
     display: none;
 }
 
-   
+
+@media (max-width: 768px) {
+    .header {
+        .imgLogo {
+            max-width: 57px;
+        }
+   }         
+}
+
+@media (max-width: 500px) {
+    .link {
+        font-size: 10px;
+    }
+}
+
 
