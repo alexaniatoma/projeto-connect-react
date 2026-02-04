@@ -1,0 +1,15 @@
+footer {
+    background-color: #E9EFF4;
+    padding: 30px 20px;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media(max-width: 500px){
+    footer {
+        font-size: 12px;
+        font-weight: 300;
+    }
+}
