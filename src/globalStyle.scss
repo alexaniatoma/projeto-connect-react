@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-evenly;
+
+    h1 {
+        font-family: "Source Sans 3" , sans-serif;
+        color:#205691;
+        font-size: 60px;
+    }
+}
+
+    .section {       
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        
+        article {
+            flex: 1;            
+            display: flex;
+            justify-content: space-around;
+        }
+
+        article:not(:last-child) {
+            border-right: 1px solid #CBCBCB;
+        }
+    }
+
+
+@media (max-width: 768px) {
+    .main {
+       height: auto;
+    }
+
+    h1{
+        padding:1em;
+    }
+
+    .section {            
+        flex-direction: column;      
+        align-items: center;
+       
+        article {
+            margin-bottom: 2em; 
+                   
+        }
+
+        article:not(:last-child) {
+            border-right: none;
+        }
+    }    
+}

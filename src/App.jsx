@@ -8,7 +8,7 @@ import Mentoria from "./pages/mentoria/Mentoria"
 import Eventos from "./pages/eventos/Eventos"
 import Usuario from "./pages/usuario/Usuario"
 import Footer from "./components/footer/Footer"
-import "./globalStyle.css"
+import "./globalStyle.scss"
 
 export default function App() {
   return (

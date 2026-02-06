@@ -1,0 +1,61 @@
+.article {    
+    max-width: 357px;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    h2{
+        color:#122F97;
+        font-size: 30px;
+        font-family: "Source Sans 3" ,sans-serif;
+        font-weight: bold;
+    }
+
+    p{
+        font-family: "Inter", sans-serif;
+        text-align: center;
+        color:#122F97;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    button {
+        border: none;
+        background-color: #205691;
+        color:#fff;
+        width: 210px;
+        height: 50px;
+        border-radius: 10px;
+        font-size:22px;
+        font-weight: 600;
+        font-family: "Source Sans 3" , sans-serif;
+        cursor: pointer; 
+    }
+}
+
+.article img {
+    max-width: 100%;
+    min-width: 0;
+}
+
+@media (max-width: 768px) {
+
+    .article {
+          max-width: 300px;  
+
+        h2 {
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 10px;
+        }
+
+        button {
+            font-size: 15px;
+            width: 180px;
+        }
+    }
+}
