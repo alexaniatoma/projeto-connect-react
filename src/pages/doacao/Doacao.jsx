@@ -1,5 +1,5 @@
 import React from 'react'
-import S from './doacao.module.scss'
+import S from '../../Style.module.scss'
 import InfoCard from '../../components/infoCard/infoCard'
 import InstitutoFamilia from "../../assets/img/institutoFamilia.png"
 import FuturoEscola from '../../assets/img/futuroEscola..png'
@@ -13,7 +13,7 @@ export default function Doacao() {
           <article>
             <InfoCard
             img = {InstitutoFamilia}
-            alt="Imagem de tres pessoas carregando caixas com materiais para reciclagem"            
+            alt="Imagem de uma caixa de cesta básica com alimentos não perecíveis"            
             subtitulo = "Instituto grande família"
             paragrafo = "Contribua com alimentos não perecíveis e ajude famílias em situação de vulnerabilidade."
             textBotao = "Quero Doar"
@@ -22,7 +22,7 @@ export default function Doacao() {
           <article>
             <InfoCard
             img = {FuturoEscola}
-            alt="Imagem de tres pessoas carregando caixas com materiais para reciclagem"            
+            alt="Imagem de livros, organizados em uma estante."            
             subtitulo = "Projeto Futuro na Escola"
             paragrafo = "Doe livros, cadernos, lápis, mochilas e canetas para ajudar jovens a continuarem seus estudos com mais estrutura."
             textBotao = "Quero Doar"
@@ -31,7 +31,7 @@ export default function Doacao() {
           <article>
             <InfoCard
             img = {ConectaJovem}
-            alt="Imagem de tres pessoas carregando caixas com materiais para reciclagem"            
+            alt="Imagem de uma pessoa concertando um computador."            
             subtitulo = "Instituto Conecta Jovem"
             paragrafo = "Doe computadores usados, tablets ou celulares em bom estado para permitir que jovens tenham acesso ao mundo digital e novas oportunidades."
             textBotao = "Quero Doar"

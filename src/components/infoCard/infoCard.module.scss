@@ -1,6 +1,6 @@
 .article {    
     max-width: 357px;
-    height: 55vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,6 +11,7 @@
         font-size: 30px;
         font-family: "Source Sans 3" ,sans-serif;
         font-weight: bold;
+        text-align: center;
     }
 
     p{
@@ -41,21 +42,14 @@
 }
 
 @media (max-width: 768px) {
-
     .article {
-          max-width: 300px;  
-
         h2 {
             font-size: 25px;
         }
 
-        p {
-            font-size: 10px;
-        }
-
         button {
-            font-size: 15px;
-            width: 180px;
+            width: 150px;            
+            font-size: 20px;
         }
-    }
+    }    
 }

@@ -3,14 +3,14 @@ import InfoCard from '../../components/infoCard/infoCard'
 import MultiraoReciclagem from '../../assets/img/mutiraoReciclagem.png'
 import AulasTecnologias from '../../assets/img/aulasTecnologia.png'
 import EsporteInclusao from '../../assets/img/esporteInclusao.png'
-
+import S from "../../Style.module.scss";
 
 
 export default function Voluntariado() {
   return (
-     <main>
+     <main className={S.main}>
             <h1>Voluntariado</h1>
-            <section>
+            <section className={S.cards}>
               <article>
                 <InfoCard
                 img = {MultiraoReciclagem}

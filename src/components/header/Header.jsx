@@ -39,11 +39,11 @@ export default function Header() {
                     <Link className={S.link} to="/eventos">Eventos</Link>                   
                 </nav>
             )}
-                <img className={S.imgUser}src="https://avatars.githubusercontent.com/u/118212495?v=4" alt="" 
+                <img className={S.imgUser}src="https://avatars.githubusercontent.com/u/86957848?v=4" alt="" 
                 onClick={() => setMenuAberto(!menuAberto)}/>                    
         </header>
         <nav className={menuAberto ? S.navUser : S.menuFechado}>
-            <Link to="/usuario">Vinicius Bispo</Link>
+            <Link to="/usuario">Alexania Toma</Link>
             <Link >Meu Voluntariado</Link>
             <Link >Configurações da conta</Link>
             {isMobile && (

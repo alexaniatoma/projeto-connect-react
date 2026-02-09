@@ -1,5 +1,4 @@
-.header {
-    border: solid 2px red;
+.header {    
     height: 100px;
     display: flex;
     align-items: center;
@@ -12,8 +11,7 @@
         width: 5vw;       
     }
 
-    .nav {
-        border: solid 2px red;
+    .nav {        
         width: 100%;
         max-width: 500px;
         display: flex;
@@ -54,7 +52,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {   
     .header {
         .imgLogo {
             max-width: 57px;

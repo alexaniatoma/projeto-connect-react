@@ -1,0 +1,149 @@
+.main {
+    height: 100vh;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter" , sans-serif;
+
+    section {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        max-width: 900px;        
+
+        img {
+            width: 200px;
+            border-radius: 50%;
+            border-radius: 3px solid #00aaff;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            li {
+                display: flex;
+                align-items: center;
+                font-size: 14px;;
+            }
+        }
+    }
+}
+
+.divInfo {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+    h2 {
+        color:#278733;
+        font-size: 16px;
+    }
+
+    ul:last-child {
+        li {
+            background-color: #D4e7d6;
+            padding: 5px;
+            border-radius: 10px;
+            color:#278733;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        section {
+            flex-direction: column;
+
+            div{
+                text-align: center;
+                ul {
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .main {
+        height: 150vh;
+
+        ul {
+            flex-direction: column;
+        }
+    }
+}
+
+/*
+.main {
+  height: 100vh;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 900px;
+    img {
+      width: 300px;
+      border-radius: 50%;
+      border: solid 3px #00aaff;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      li {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        gap: 4px;
+      }
+    }
+  }
+}
+.div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  h2 {
+    font-size: 16px;
+    color: #278733;
+  }
+  ul:last-child {
+    li {
+      background-color: #d4e7d6;
+      padding: 5px;
+      border-radius: 10px;
+      color: #278733;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .main {
+    section {
+      flex-direction: column;
+      div {
+        text-align: center;
+        ul {
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .main {
+    height: 150vh;
+    ul {
+      flex-direction: column;
+    }
+  }
+}
+*/
