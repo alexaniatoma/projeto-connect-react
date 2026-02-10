@@ -1,4 +1,4 @@
-footer {
+.footer {
     background-color: #E9EFF4;
     padding: 25px 20px;
     font-family: "Inter", sans-serif;
@@ -10,7 +10,7 @@ footer {
 }
 
 @media(max-width: 900px){
-    footer {
+    .footer {
         font-size: 12px;
         font-weight: 300;
         flex-direction: column;
