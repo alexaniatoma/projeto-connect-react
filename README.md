@@ -130,13 +130,14 @@ A interface adapta-se para:
 
 ## 🌐 Deploy da Aplicação
 
-[![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://seu-projeto.vercel.app)
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://projeto-connect-react.app)
 
 A aplicação está hospedada na plataforma **Vercel** e pode ser acessada pelo link acima.
 
 ---
 
 # 📂 Estrutura do Projeto
+```
 projeto-react
 │
 ├── public
@@ -157,19 +158,19 @@ projeto-react
 ├── App.jsx
 ├── main.jsx
 └── README.md
-
+```
 ---
 
 # ▶️ Como Executar o Projeto
 
 ### 1️⃣ Clonar o repositório
-git clone https://github.com/alexania-toma/seu-repositorio.git
+git clone https://github.com/alexania-toma/projeto-connect-react.git
 
 
 ---
 
 ### 2️⃣ Entrar na pasta do projeto
-cd nome-do-projeto
+cd projeto-connect-react
 
 ---
 
