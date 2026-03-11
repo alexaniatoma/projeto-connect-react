@@ -164,8 +164,8 @@ projeto-react
 # ▶️ Como Executar o Projeto
 
 ### 1️⃣ Clonar o repositório
-git clone https://github.com/alexania-toma/projeto-connect-react.git
 
+git clone https://github.com/alexaniatoma/projeto-connect-react.git
 
 ---
 
@@ -183,7 +183,6 @@ npm run dev
 
 A aplicação será executada em:
 http://localhost:5173
-
 
 ---
 
