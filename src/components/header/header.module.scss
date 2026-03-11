@@ -7,10 +7,6 @@
     padding: 0 20px;
     position:relative;
 
-    img {
-        width: 5vw;       
-    }
-
     .nav {        
         width: 100%;
         max-width: 500px;
@@ -55,7 +51,7 @@
 @media (max-width: 768px) {   
     .header {
         .imgLogo {
-            max-width: 57px;
+            min-width: 50px;
         }
    }         
 }
