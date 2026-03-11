@@ -130,7 +130,7 @@ A interface adapta-se para:
 
 ## 🌐 Deploy da Aplicação
 
-[![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://projeto-connect-react.app)
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white)](https://projeto-connect-react.vercel.app)
 
 A aplicação está hospedada na plataforma **Vercel** e pode ser acessada pelo link acima.
 
